@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.text.Text?>
+<VBox alignment="CENTER" spacing="50.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.prisonbreakchess.StartController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <Text text="Chess" style="-fx-font-size: 80"/>
+    <Label fx:id="welcomeText"/>
+    <Button text="Human-Machine" onAction="#onHumanMachineButtonClick" minWidth="400" minHeight="80"/>
+    <Button text="Two Players" onAction="#twoPlayersButtonClick" minWidth="400" minHeight="80"/>
+    <Button text="Setting" onAction="#settingButtonClick" minWidth="400" minHeight="80"/>
+    <Button text="Exit" onAction="#exitButtonClick" minWidth="400" minHeight="80"/>
+</VBox>
